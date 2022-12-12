@@ -1,0 +1,24 @@
+POST http://localhost:3001/api/user HTTP/1.1
+content-type: application/json
+
+{
+"email": "ab@waiga.gm",
+"password": "razaq",
+"firstname": "Abdulrazaq",
+"minit": "",
+"lastname": "Camara"
+}
+
+###
+POST http://localhost:3001/api/sale HTTP/1.1
+content-type: application/json
+
+{
+
+"description": "Orange",
+"qty": 4,
+"price": 100,
+"Total": 900,
+"userId": "6394b3fc4f81bfb66fe392e4"
+
+}

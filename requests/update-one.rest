@@ -1,0 +1,10 @@
+PUT http://localhost:3001/api/user/6394b30a4f81bfb66fe392e0
+content-type: application/json
+
+{
+"email": "ac@camariana.gm",
+"firstname": "A",
+"minit": "",
+"lastname": "Camara",
+"role": "Admin"
+}
